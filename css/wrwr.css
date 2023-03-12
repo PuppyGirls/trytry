@@ -3,7 +3,7 @@
 }
 .a{
 	margin: 20px auto;
-	background: black;
+	background: url(../Je6V4qeltG.jpg);
 	width: 1400px;
 	height: 400px;
 }
@@ -35,9 +35,13 @@ h2{
 p{
 	padding: 50px 50px 50px 200px;
 	text-align: right;
+	display: none;
 }
 .b:hover{
 	/*margin: 0 200px 0 10px;*/
 	width: 350px;
 	background: khaki;
+}
+.b:hover p{
+	display: block;
 }
