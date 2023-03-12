@@ -51,3 +51,27 @@ p{
 .b:hover p{
 	display: block;
 }
+#i{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+#i a{
+	color: black;
+	text-decoration: none;
+}
+#i a h2{
+	position: absolute;
+	font-size: 35px;
+	padding-left: 50px;
+	top: 55px;
+	font-weight: bold;
+	display: none;
+}
+#i a:hover{
+	opacity: 0.7;
+}
+#i a:hover h2{
+	display: block;
+	opacity: 1;
+}
