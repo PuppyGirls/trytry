@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+.a{
+	margin: 20px auto;
+	background: black;
+	width: 1400px;
+	height: 400px;
+}
+.f{
+	padding: 50px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.c{
+	background: #fff;
+	width: 400px;
+	height: 300px;
+	margin: 0 10px;
+}
+.c h2{
+	padding: 60px 60px 0 0 ;
+	text-align: right;
+}
+.b{
+	background: #fff;
+	width: 200px;
+	height: 300px;
+	margin: 0 10px;
+}
+h2{
+	text-align: center;
+}
+.b:hover{
+	/*margin: 0 200px 0 10px;*/
+	width: 350px;
+	background: khaki;
+}
