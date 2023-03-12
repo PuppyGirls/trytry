@@ -32,6 +32,10 @@
 h2{
 	text-align: center;
 }
+p{
+	padding: 50px 50px 50px 200px;
+	text-align: right;
+}
 .b:hover{
 	/*margin: 0 200px 0 10px;*/
 	width: 350px;
